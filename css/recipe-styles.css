@@ -32,6 +32,10 @@ header {
     font-size: 2em;
 }
 
+li {
+    padding-top: 5px;
+}
+
 .content {
     font-size: 1.5em;
 }
