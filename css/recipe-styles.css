@@ -36,9 +36,20 @@ li {
     padding-top: 5px;
 }
 
+p.content, 
 .content {
     font-size: 1.5em;
+    margin: 0 20px 10px 20px;
 }
+
+p.content {
+    padding: 5px;
+}
+
+.content {
+    padding-bottom: 10px;
+}
+
 
 .main {
     text-align: center;
