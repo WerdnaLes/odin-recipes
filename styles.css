@@ -67,3 +67,7 @@ a:hover {
     background-color: #d9dbf1;
     color: black;
 }
+
+a:active {
+    color: grey;
+}
