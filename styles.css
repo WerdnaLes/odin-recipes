@@ -5,6 +5,7 @@ html{
 }
 
 body {
+    margin: 0;
     background-image: url("https://rare-gallery.com/uploads/posts/1097054-kitchen-spoons-diner-cooking-ART-darkness-screenshot.jpg") ;
     background-position: 20% 20%;
     
@@ -28,18 +29,12 @@ h1 {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 20vh auto;
+    height: 100vh;
 }
 
 .box {
+    
     text-align: center;
-}
-
-img {
-    width: 800px;
-    height: auto;
-    border-radius: 30px;
-    border: 1px solid black;
 }
 
 ul {
