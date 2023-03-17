@@ -12,8 +12,10 @@ html {
     background-image: url(../images/kitchen-tools.jpg);
     background-position: center;
     background-repeat: no-repeat;
+    background-size: cover;
     background-attachment: fixed;
-    height: calc(100vh+60px);
+    height: 100vh;
+    overscroll-behavior: none;
 
 }
 
