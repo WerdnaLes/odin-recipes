@@ -69,4 +69,8 @@ a:active {
     ul {
         font-size: 1.5em;
     }
+
+    body {
+        background-size: cover;
+    }
 }
