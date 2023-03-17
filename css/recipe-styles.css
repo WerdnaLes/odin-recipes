@@ -1,5 +1,10 @@
-html {
+*,
+:after,
+:before {
     box-sizing: border-box;
+}
+
+html {
 
     background-image: url("https://rare-gallery.com/uploads/posts/1097054-kitchen-spoons-diner-cooking-ART-darkness-screenshot.jpg");
     background-position: center;
@@ -14,6 +19,14 @@ body {
     font-size: 16px;
     height: 100vh;
 
+}
+
+#top-of-the-page {
+    position: absolute;
+    top: 0px;
+    width: 1px;
+    height: 1px;
+    left: 0;
 }
 
 h1 {
@@ -68,7 +81,7 @@ img {
     border: 1px solid #d9dbf1;
 }
 
-a {
+.back-btn {
     color: #d9dbf1;
     text-decoration: none;
     padding: 5px;
@@ -76,13 +89,41 @@ a {
     font-size: 1.3em;
 }
 
-a:hover {
+.back-btn:hover {
     color: black;
     background-color: #d9dbf1;
 }
 
-a:active {
+.back-btn:active {
     color: grey;
+}
+
+.to-top-of-the-site-link {
+    transition: .2s;
+    position: fixed;
+    bottom: 1.8rem;
+    right: 1.5rem;
+    z-index: 15;
+    text-decoration: none;
+    text-align: center;
+}
+
+
+.up-btn {
+    width: 35px;
+    height: 35px;
+    background-color: rgb(170, 209, 209);
+    border-radius: 50%;
+}
+
+.up-btn:hover {
+    background-color: rgb(0, 0, 0);
+}
+
+.up-text {
+    padding: 5px;
+    font-size: 1.3em;
+    margin: 0;
 }
 
 footer {
@@ -104,7 +145,12 @@ footer {
         font-size: 1.5em;
     }
 
-    a {
+    .back-btn {
         font-size: 1.1em;
+    }
+
+    .to-top-of-the-site-link {
+        bottom: 1.5rem;
+        right: .5rem;
     }
 }
