@@ -2,6 +2,7 @@
 :after,
 :before {
     box-sizing: border-box;
+    
 }
 
 html {
@@ -11,6 +12,8 @@ html {
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
+    height: 100vh;
+    overflow: auto;
 }
 
 body {
