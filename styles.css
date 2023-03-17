@@ -1,6 +1,4 @@
-* {
-    overflow: hidden;
-}
+
 
 html{
     box-sizing: border-box;
@@ -30,7 +28,7 @@ h1 {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
+    margin: 20vh auto;
 }
 
 .box {
@@ -70,4 +68,14 @@ a:hover {
 
 a:active {
     color: grey;
+}
+
+@media (max-width: 600px){
+    h1 {
+        font-size: 3em;
+    }
+
+    ul{
+        font-size: 1.5em;
+    }
 }
