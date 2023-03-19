@@ -1,166 +1,160 @@
 *,
 :after,
 :before {
-    box-sizing: border-box;
-    
+  box-sizing: border-box;
 }
 
-
 html {
-    margin: 0;
-    padding: 0;
-    background-image: url(../images/kitchen-tools.jpg);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-attachment: fixed;
-    height: 100vh;
-    overscroll-behavior: none;
-
+  margin: 0;
+  padding: 0;
+  background-image: url(../images/kitchen-tools.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  height: 100vh;
+  overscroll-behavior: none;
 }
 
 body {
-    width: 80%;
-    margin: 0 auto;
-    font-size: 16px;
-    height: 100vh;
-
+  width: 80%;
+  margin: 0 auto;
+  font-size: 16px;
+  height: 100vh;
 }
 
 #top-of-the-page {
-    position: absolute;
-    top: 0px;
-    width: 1px;
-    height: 1px;
-    left: 0;
+  position: absolute;
+  top: 0px;
+  width: 1px;
+  height: 1px;
+  left: 0;
 }
 
 h1 {
-    color: #d9dbf1;
-    font-size: 5em;
-    font-style: italic;
-    font-family: 'Sono', sans-serif;
-    border-radius: 20px;
-    border: 1px solid;
-    background-color: rgba(0, 0, 0, 0.5);
+  color: #d9dbf1;
+  font-size: 5em;
+  font-style: italic;
+  font-family: "Sono", sans-serif;
+  border-radius: 20px;
+  border: 1px solid;
+  background-color: rgba(0, 0, 0, 0.5);
 }
 
 article {
-    color: #d9dbf1;
-    background-color: rgba(0, 0, 0, 0.5);
-    border-radius: 20px;
+  color: #d9dbf1;
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 20px;
 }
 
 header {
-    text-align: center;
-    font-size: 2em;
+  text-align: center;
+  font-size: 2em;
 }
 
 li {
-    padding-top: 5px;
+  padding-top: 5px;
 }
 
 p.content,
 .content {
-    font-size: 1.5em;
-    margin: 0 20px 10px 20px;
+  font-size: 1.5em;
+  margin: 0 20px 10px 20px;
 }
 
 p.content {
-    padding: 5px;
+  padding: 5px;
 }
 
 .content {
-    padding-bottom: 10px;
-    line-height: 1.2;
+  padding-bottom: 10px;
+  line-height: 1.2;
 }
 
-
 .main {
-    text-align: center;
-    align-items: center;
+  text-align: center;
+  align-items: center;
 }
 
 img {
-    max-width: 100%;
-    height: auto;
-    border-radius: 20%;
-    border: 1px solid #d9dbf1;
+  max-width: 100%;
+  height: auto;
+  border-radius: 20%;
+  border: 1px solid #d9dbf1;
 }
 
 .back-btn {
-    color: #d9dbf1;
-    text-decoration: none;
-    padding: 5px;
-    border-radius: 20px;
-    font-size: 1.3em;
-    background-color: rgba(0, 0, 0, 0.5);
-    border: 1px solid;
+  color: #d9dbf1;
+  text-decoration: none;
+  padding: 5px;
+  border-radius: 20px;
+  font-size: 1.3em;
+  background-color: rgba(0, 0, 0, 0.5);
+  border: 1px solid;
 }
 
 .back-btn:hover {
-    color: black;
-    background-color: #d9dbf1;
-    border: 2px solid rgb(99, 43, 43);
+  color: black;
+  background-color: #d9dbf1;
+  border: 2px solid rgb(99, 43, 43);
 }
 
 .back-btn:active {
-    color: grey;
+  color: grey;
 }
 
 .to-top-of-the-site-link {
-    transition: .2s;
-    position: fixed;
-    bottom: 1.8rem;
-    right: 1.5rem;
-    z-index: 15;
-    text-decoration: none;
-    text-align: center;
+  transition: 0.2s;
+  position: fixed;
+  bottom: 1.8rem;
+  right: 1.5rem;
+  z-index: 15;
+  text-decoration: none;
+  text-align: center;
 }
 
-
 .up-btn {
-    width: 35px;
-    height: 35px;
-    background-color: rgb(170, 209, 209);
-    border-radius: 50%;
+  width: 35px;
+  height: 35px;
+  background-color: rgb(170, 209, 209);
+  border-radius: 50%;
 }
 
 .up-btn:hover {
-    background-color: rgb(0, 0, 0);
+  background-color: rgb(0, 0, 0);
 }
 
 .up-text {
-    padding: 5px;
-    font-size: 1.3em;
-    margin: 0;
+  padding: 5px;
+  font-size: 1.3em;
+  margin: 0;
 }
 
 footer {
-    text-align: center;
-    padding-bottom: 2px;
+  text-align: center;
+  padding-bottom: 2px;
 }
 
 @media (max-width: 600px) {
-    h1 {
-        font-size: 3em;
-    }
+  h1 {
+    font-size: 3em;
+  }
 
-    p.content,
-    .content {
-        font-size: 1em;
-    }
+  p.content,
+  .content {
+    font-size: 1em;
+  }
 
-    header {
-        font-size: 1.5em;
-    }
+  header {
+    font-size: 1.5em;
+  }
 
-    .back-btn {
-        font-size: 1.1em;
-    }
+  .back-btn {
+    font-size: 1.1em;
+  }
 
-    .to-top-of-the-site-link {
-        bottom: 1.5rem;
-        right: .5rem;
-    }
+  .to-top-of-the-site-link {
+    bottom: 1.5rem;
+    right: 0.5rem;
+  }
 }
